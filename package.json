@@ -1,0 +1,20 @@
+{
+  "name": "xrpl-tx",
+  "version": "1.0.0",
+  "description": "Get XRPL tx as JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xrpl",
+    "xrp",
+    "ledger"
+  ],
+  "author": "Wietse Wind <hi@wietse.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rate-limiter-flexible": "^2.1.13",
+    "xrpl-txdata": "^1.0.3"
+  }
+}

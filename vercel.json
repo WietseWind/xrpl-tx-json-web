@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/:tx", "destination": "/api/index" },
+    { "source": "/:tx/:format", "destination": "/api/index" }
+  ]
+}
